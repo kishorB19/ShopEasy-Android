@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shopping bag body (trapezoid) -->
+    <path
+        android:pathData="M28,50 L33,86 L75,86 L80,50 Z"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:strokeLineJoin="round"/>
+
+    <!-- Shopping bag handle (arc) -->
+    <path
+        android:pathData="M39,50 C39,28 69,28 69,50"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5"
+        android:fillColor="#00000000"
+        android:strokeLineCap="round"/>
+
+    <!-- Star inside bag -->
+    <path
+        android:pathData="M54,62 L56.2,68 L62.5,68 L57.6,71.8 L59.5,78 L54,74.2 L48.5,78 L50.4,71.8 L45.5,68 L51.8,68 Z"
+        android:fillColor="#6C63FF"/>
+
+</vector>

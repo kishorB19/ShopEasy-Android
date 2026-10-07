@@ -1,0 +1,33 @@
+# Android built artifacts
+*.apk
+*.aab
+*.ap_
+
+# Build directories
+build/
+app/build/
+*/build/
+
+# Local config files (contain machine-specific paths)
+local.properties
+.gradle/
+*.iml
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iws
+*.ipr
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Gradle wrapper (keep gradlew but not cache)
+.gradle/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Keys / signing (never commit these)
+*.jks
+*.keystore
